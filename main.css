@@ -1,1 +1,132 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --primary-color:#007af3;
+}
+
+body {
+  background-color: #F2F2F2;
+  margin: 0;
+  font-family: poppins;
+}
+
+.navbar {
+  background: #fff;
+  padding: 1em;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 2em;
+}
+
+.navbar span {
+  color: var(--primary-color);
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer;
+}
+
+a {
+  color: #444;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero .left-col .sub-head {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: grey;
+  letter-spacing: 0.3em;
+}
+
+.hero .left-col .heading {
+  font-size: 2.5em;
+  line-height: 1.3em;
+  margin-top: 0.2em;
+}
+
+.hero .left-col span {
+  color: var(--primary-color);
+}
+
+.hero .left-col .primary-cta {
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  padding: .6em 1.3em;
+  border-radius: 5em;
+  font-size: 1.4em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.hero .left-col .watch-video-cta {
+  display: block;
+  margin: 1em;
+}
+
+.hero .left-col img {
+  margin-right: 0.5em;
+}
+
+.hero .hero-img {
+  margin-top: 3em;
+  width: 70%;
+}
+
+.features-section {
+  background: #20272e;
+  color: white;
+}
+
+.features-section .ul-features {
+  margin: 0em;
+  padding-left: 1em;
+  display: -ms-grid;
+  display: grid;
+}
+
+.features-section .ul-features li {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  position: relative;
+}
+
+.features-section .ul-features li:before {
+  content: '';
+  left: -2em;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url(images/bullet.svg);
+  background-size: contain;
+  margin-right: 0.5em;
+}
+/*# sourceMappingURL=main.css.map */
